@@ -1,24 +1,34 @@
 # L5Proyecto
 
 # Entorno virtual
-python -m venv venv
-cd venv
-Scripts\activate
-cd ..
+```
+    python -m venv venv
+    cd venv
+    Scripts\activate
+    cd ..
+```
 
 # Instalar Django
-pip install django
+```
+    pip install django
+```
 
 # Proyecto Django
-django-admin startproject users
-cd users
+```
+    django-admin startproject users
+    cd users
+```
 
 # Correr migraciones
-python manage.py makemigrations
-python manage.py migrate
+```
+    python manage.py makemigrations
+    python manage.py migrate
+```
 
 # Crear una app
-python manage.py startapp perfiles
+```
+    python manage.py startapp perfiles
+```
 
 # Agregar la app al Settings.py
 INSTALLED_APPS = [
@@ -121,3 +131,4 @@ STATICFILES_DIRS = [
 # Correr migraciones
 python manage.py makemigrations perfiles
 python manage.py migrate
+
