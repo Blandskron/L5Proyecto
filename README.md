@@ -156,3 +156,8 @@
 ```
     python manage.py runserver
 ```
+
+# Crear requirements.txt
+```
+    pip freeze > requirements.txt
+```
